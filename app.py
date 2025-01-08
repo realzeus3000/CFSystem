@@ -150,7 +150,7 @@ def fuzzy_decrypt_image(encrypted_image, key):
     return fuzzy_encrypt_image(encrypted_image, key)
 
 def main():
-    st.set_page_config(page_title="Chaotic Image Encryption", layout="wide")
+    st.set_page_config(page_title="Chaotic Image Encryption")
     st.title("Image Encryption using Chaotic S-box and Fuzzy Differential Equations")
     st.write("Upload an image and test the two-layer encryption/decryption process")
 
